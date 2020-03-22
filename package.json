@@ -2,6 +2,7 @@
   "name": "amplify-notes",
   "version": "0.1.0",
   "private": true,
+  "author": "David Mateo <davidmateo@outlook.com>",
   "dependencies": {
     "aws-amplify": "^2.2.6",
     "aws-amplify-react": "^3.1.7",

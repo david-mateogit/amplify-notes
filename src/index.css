@@ -1,0 +1,8 @@
+.submit {
+  -webkit-appearance: none !important;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #fbf1a9;
+}
