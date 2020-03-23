@@ -204,17 +204,20 @@ function App() {
       {isLoading ? (
         <Loading />
       ) : (
-        <div className="bg-yellow pa3 mw6 w-30">
+        <div className="bg-yellow pa3 mw6 w5 w-30-l">
           {notes.map(item => (
             <div
               key={item.id}
               className="flex items-center justify-between bb "
             >
-              <li className="list pa1 f3" onClick={() => handleSetNote(item)}>
+              <li
+                className="list pa1 f3-l f4"
+                onClick={() => handleSetNote(item)}
+              >
                 {item.note}
               </li>
               <button
-                className="bg-transparent bn f4"
+                className="bg-transparent bn f4 "
                 type="button"
                 onClick={() => handleDelete(item.id)}
               >
