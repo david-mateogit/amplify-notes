@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is a practice app using Amazon Web Services Amplify with Authentication, a DynamoDB Database and full CRUD (Create, Read, Update, Delete) functionality.
+
+Demo Website: https://notetaker.d4hcx2607a00p.amplifyapp.com/
+
 ## Available Scripts
 
 In the project directory, you can run:
